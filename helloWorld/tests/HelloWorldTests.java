@@ -13,7 +13,6 @@ public class HelloWorldTests {
 
     @Test
     @DisplayName("When name not provided an UnsupportedOperationException is thrown")
-
     public void getMessageWithoutName_throwsException() {
         assertThrows(UnsupportedOperationException.class, () ->  HelloWorld.getMessage(null));
     }
